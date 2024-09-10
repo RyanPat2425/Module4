@@ -1,0 +1,124 @@
+/*Global Styles*/
+html {
+    font-size: 62.5%;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    background: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+h1 {
+    font-family: "Playwrite AU NSW", cursive;
+}
+h2,h3 {
+    font-family: "Playwrite DE Grund", cursive;
+}
+h1 {
+    font-size: 6rem;
+    line-height: 0.8;
+    text-shadow: 2px 2px orange;
+}
+h2 {
+    font-size: 3.6rem;
+    color: orange;
+}
+h3 {
+    font-size: 2.6rem;
+}
+
+/*links*/
+
+a {
+    color:orange;
+}
+a:hover {
+    color:orangered;
+}
+section a:hover {
+color:orangered ;
+}
+
+.certifications
+ {
+    list-style-type: none;
+    padding: 0;
+}
+
+.btn {
+    background: olive;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 7px;
+    letter-spacing: 0.25em;
+    border-radius: 4px;
+}
+/*Home */
+.home {
+    background: url(../images/joanna-kosinska-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.content-wrapper{
+    background: rgb(128 128 128 / 0.6);
+}
+/*Header */
+
+/*Featured Projects */
+.project-item {
+    display: flow-root
+}
+.project-item img {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+}
+.projects {
+    margin-bottom: 50px;
+}
+.projects h2 {
+    border-bottom: 2px dashed orange ;
+}
+.project-img {
+    display: inline-block;
+    grid-template-columns: 1fr ;
+}
+
+}
+
+/*Work Experience */
+.work {
+    margin-bottom: 50px;
+}
+.work h2 {
+    border-bottom: 2px dashed orange ;
+}
+
+/* Education */
+.education {
+    margin-bottom: 50px;
+}
+.education h2 {
+    border-bottom: 2px dashed orange ;
+}
+
+/* Footer */
+footer{
+    background: rgb(128 128 128 / 0.6);
+}
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li {
+display: inline-block;
+}
